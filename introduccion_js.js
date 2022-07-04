@@ -60,5 +60,45 @@ console.log($_mul);
 $_div = $_num_a / $_num_b; //Division simple
 console.log($_div);
 
+// Operadores boleanos
+
+// CONJUNCION
+var $_Verdadero = true;
+var $_Falso = false;
+console.log("CONJUNCION");
+$_result = $_Verdadero && $_Verdadero;
+console.log("El resultados de v && v es: ",$_result);
+$_result = $_Verdadero && $_Falso;
+console.log("El resultados de v && f es: ",$_result);
+$_result = $_Falso && $_Verdadero;
+console.log("El resultados de f && v es: ",$_result);
+$_result = $_Falso && $_Falso;
+console.log("El resultados es de f && f: ",$_result);
+
+// DISYUNCION
+console.log("DISYUNCION");
+var $_Verdadero = true;
+var $_Falso = false;
+$_result = $_Verdadero || $_Verdadero;
+console.log("El resultados de v && v es: ",$_result);
+$_result = $_Verdadero || $_Falso;
+console.log("El resultados de v && f es: ",$_result);
+$_result = $_Falso || $_Verdadero;
+console.log("El resultados de f && v es: ",$_result);
+$_result = $_Falso || $_Falso;
+console.log("El resultados es de f && f: ",$_result);
+
+// CONDICIONALES
+console.log("DISYUNCION");
+var $_Verdadero = true;
+var $_Falso = false;
+$_result = $_Verdadero || $_Verdadero;
+console.log("El resultados de v && v es: ",$_result);
+$_result = $_Verdadero || $_Falso;
+console.log("El resultados de v && f es: ",$_result);
+$_result = $_Falso || $_Verdadero;
+console.log("El resultados de f && v es: ",$_result);
+$_result = $_Falso || $_Falso;
+console.log("El resultados es de f && f: ",$_result);
 
 
