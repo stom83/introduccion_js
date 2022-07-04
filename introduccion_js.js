@@ -80,25 +80,33 @@ console.log("DISYUNCION");
 var $_Verdadero = true;
 var $_Falso = false;
 $_result = $_Verdadero || $_Verdadero;
-console.log("El resultados de v && v es: ",$_result);
+console.log("El resultados de v || v es: ",$_result);
 $_result = $_Verdadero || $_Falso;
-console.log("El resultados de v && f es: ",$_result);
+console.log("El resultados de v || f es: ",$_result);
 $_result = $_Falso || $_Verdadero;
-console.log("El resultados de f && v es: ",$_result);
+console.log("El resultados de f || v es: ",$_result);
 $_result = $_Falso || $_Falso;
-console.log("El resultados es de f && f: ",$_result);
+console.log("El resultados es de f || f: ",$_result);
 
-// CONDICIONALES
-console.log("DISYUNCION");
+// COMPARATIVAS
+console.log("COMPARATIVAS");
 var $_Verdadero = true;
 var $_Falso = false;
-$_result = $_Verdadero || $_Verdadero;
-console.log("El resultados de v && v es: ",$_result);
-$_result = $_Verdadero || $_Falso;
-console.log("El resultados de v && f es: ",$_result);
-$_result = $_Falso || $_Verdadero;
-console.log("El resultados de f && v es: ",$_result);
-$_result = $_Falso || $_Falso;
-console.log("El resultados es de f && f: ",$_result);
+$_result = $_Verdadero == $_Verdadero;
+console.log("El resultados de v == v es: ",$_result);
+$_result = $_Verdadero == $_Falso;
+console.log("El resultados de v == f es: ",$_result);
+$_result = $_Falso == $_Verdadero;
+console.log("El resultados de f == v es: ",$_result);
+$_result = $_Falso == $_Falso;
+console.log("El resultados es de f == f: ",$_result);
 
+// NEGACION
+console.log("NEGACION");
+var $_Verdadero = true;
+var $_Falso = false;
+$_result = !$_Verdadero;
+console.log("El resultados de !v es: ",$_result);
+$_result = !$_Falso;
+console.log("El resultados de !f es: ",$_result);
 
